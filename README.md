@@ -10,7 +10,7 @@
 
 The Emotion Recognition System is a deep learning-based application that detects human emotions from facial expressions using the VGG-19 Convolutional Neural Network (CNN) architecture.
 
-This project combines Facial Emotion Recognition, DASS-21 psychological assessment, and Emoji-based self-analysis to generate a hybrid emotional evaluation system capable of identifying:
+This project combines Facial Emotion Recognition and DASS-21 psychological assessment to generate a hybrid emotional evaluation system capable of identifying:
 
 - Stress
 - Anxiety
@@ -24,9 +24,9 @@ The system provides a smart and interactive approach for emotional state analysi
 
 - Detect emotions from facial expressions using Deep Learning.
 - Improve emotion analysis using DASS-21 psychological scoring.
-- Integrate self-assessment through emoji-based emotion selection.
 - Generate normalized emotional scores between 0 to 1.
 - Build a user-friendly desktop application using Tkinter.
+- Create a hybrid emotional analysis system.
 
 ---
 
@@ -38,7 +38,6 @@ To improve accuracy and optimize the solution, this project combines:
 
 - Facial Emotion Recognition
 - Psychological Assessment (DASS-21)
-- Emoji-based User Feedback
 
 This creates a hybrid emotion analysis system for better emotional understanding.
 
@@ -114,21 +113,8 @@ The project integrates the DASS-21 (Depression Anxiety Stress Scale) questionnai
 The DASS-21 assessment improves system reliability by combining:
 - Facial emotions
 - Psychological responses
-- Self-assessment inputs
 
 This creates a more balanced and meaningful emotional evaluation system.
-
----
-
-# 😊 Emoji-Based Self Assessment
-
-Users can also select emojis that represent their current emotional state.
-
-The emoji responses are combined with:
-- Facial Emotion Detection
-- DASS-21 Scores
-
-to generate final emotional analysis results.
 
 ---
 
@@ -139,7 +125,6 @@ The project includes a Tkinter-based graphical user interface with features such
 - Upload Image
 - Detect Facial Emotion
 - DASS-21 Questionnaire
-- Emoji Selection
 - Generate Emotional Scores
 - Display Final Results
 
@@ -184,8 +169,6 @@ Image Preprocessing
 Facial Emotion Detection using VGG-19
       ↓
 DASS-21 Questionnaire Analysis
-      ↓
-Emoji-Based Self Assessment
       ↓
 Normalization & Hybrid Scoring
       ↓
@@ -246,7 +229,7 @@ Through this project, I learned:
 ## Ayush Kumar Tiwary
 
 - Aspiring Machine Learning Engineer
-- Skilled in Python, Deep Learning, SQL, Power BI, and Web Development
+
 
 
 # ⭐ Support
